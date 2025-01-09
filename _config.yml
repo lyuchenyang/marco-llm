@@ -2,3 +2,5 @@ title: Multilingual LLM Project
 description: Research on Large Language Models with Multilingual Capabilities
 theme: jekyll-theme-minimal
 markdown: kramdown
+baseurl: "/marco-llm"  # Add this line
+url: "https://lyuchenyang.github.io"  # Add this line
