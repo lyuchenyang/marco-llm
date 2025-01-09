@@ -4,19 +4,23 @@ title: Multilingual LLM Project
 ---
 
 <section id="introduction">
-    <h1>Multilingual LLM Project</h1>
-    <p>A state-of-the-art approach to multilingual language modeling.</p>
-    
+    <h1>Marco-LLM: Bridging Languages via Massive
+Multilingual Training for Cross-Lingual Enhancement</h1>    
     <div class="project-overview">
-        <img src="assets/images/architecture.png" alt="Model Architecture">
-        <p>Our model architecture leverages advanced transformer-based approaches for multilingual understanding.</p>
+        <img src="assets/images/marco_fig_init.png" alt="Model Performance Comparison">
+        <p>Comparison of English-centric performance vs Multilingual performance on MMMLU and Flores. Our Marco-LLM demonstrates strong performance on both dimensions.</p>
+    </div>
+
+    <div class="project-overview">
+        <img src="assets/images/Marco_Figure.png" alt="Model Overview">
+        <p>An overview of the training and evaluation paradigm of our Marco-LLM, we conducted massive multilingual continual pre-training, multilingual supervised finetuning and preference alignment. We further perform extensive evaluation on multilingual benchmarks to validate the efficacy of our Marco-LLM.</p>
     </div>
 </section>
 
 <section id="training">
     <h2>Training Methodology</h2>
     
-    <h3>Stage 1: Pre-training</h3>
+    <h3>Stage 1: Continual Pre-training</h3>
     <div class="training-stage">
         <img src="assets/images/pretraining.png" alt="Pre-training Process">
         <table>
@@ -39,8 +43,10 @@ title: Multilingual LLM Project
         </table>
     </div>
 
-    <h3>Stage 2: Fine-tuning</h3>
+    <h3>Stage 2: Multilingual Supervised Fine-tuning</h3>
     <!-- Similar structure for other stages -->
+    
+    <h3>Stage 3: Multilingual DPO</h3>
 </section>
 
 <section id="results">
