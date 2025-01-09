@@ -17,21 +17,45 @@ Multilingual Training for Cross-Lingual Enhancement</h1>
     </div>
 </section>
 
+<section id="highlights">
+    <h2>Highlights</h2>
+    <ul class="highlights-list">
+        <li>We compile and curate a large-scale multilingual dataset tailored for low-resource languages, enhancing the diversity and richness of training data.</li>
+        <li>We perform massive multilingual continual pre-training and post-training on the Qwen2 model to develop Marco-LLM, a multilingual LLM that substantially improves performance on low-resource language tasks.</li>
+        <li>We conduct comprehensive evaluations on benchmarks such as MMMLU, Flores, Belebele, AGIEval, multilingual MT-bench, etc, demonstrating that Marco-LLM outperforms state-of-the-art models in multilingual settings.</li>
+    </ul>
+</section>
+
 <section id="training">
-    <h2>Training Methodology</h2>
+    <h2>Experimental Results</h2>
     
     <h3>Stage 1: Continual Pre-training</h3>
     <div class="training-stage">
-        <img src="assets/images/pretraining_data.png" alt="Pre-training Data Distribution">
+        <img src="assets/images/ct_data.png" alt="Pre-training Data Distribution">
     </div>
-
+    <div class="training-stage">
+        <img src="assets/images/pretraining_data.jp2" alt="Pre-training Data Distribution">
+    </div>
+    <div class="training-stage">
+        <img src="assets/images/ct_results" alt="Pre-training Results">
+    </div>
     <h3>Stage 2: Multilingual Supervised Fine-tuning</h3>
-    <!-- Similar structure for other stages -->
-    
+    <div class="training-stage">
+        <img src="assets/images/sft_results.png" alt="SFT Results">
+    </div>    
+    <div class="training-stage">
+        <img src="assets/images/marco_mt_results.png" alt="Marco-MT Results">
+    </div>   
+    <div class="training-stage">
+        <img src="assets/images/any2any.png" alt="Any2Any Results">
+    </div>   
     <h3>Stage 3: Multilingual DPO</h3>
+    <div class="training-stage">
+        <img src="assets/images/dpo_results.png" alt="DPO Results">
+    </div>    
 </section>
 
-<section id="results">
+<!-- <section id="results">
     <h2>Experimental Results</h2>
     <div class="results-container">
         <canvas id="resultsChart"></canvas>
@@ -52,13 +76,6 @@ Multilingual Training for Cross-Lingual Enhancement</h1>
             </tbody>
         </table>
     </div>
-</section>
+</section> -->
 
-<section id="highlights">
-    <h2>Key Highlights</h2>
-    <ul class="highlights-list">
-        <li>State-of-the-art performance in 100+ languages</li>
-        <li>Efficient training methodology</li>
-        <li>Novel architecture improvements</li>
-    </ul>
-</section>
+
